@@ -1,0 +1,43 @@
+img.logo{
+    width: 10em;
+    transition: ease-in 0.25s;
+}
+
+.logo-small img{
+    width: 7em;
+}
+
+.navbar{            
+    text-transform: uppercase;    
+    transition: ease-out 0.25s;
+}
+
+.navbar-scroll{
+    background-color: #fff;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;    
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    transition: ease-out 0.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--link-selection);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--link-selection);
+}
+
+
+@media(max-width: 768px){
+    .navbar-dark{
+        background: #00000077;
+        margin: 0;
+    }
+}

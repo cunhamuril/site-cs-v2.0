@@ -1,0 +1,32 @@
+.page-footer{
+    background: var(--gradient-footer);
+    color: #fff;
+}
+
+.footer-copyright{
+    background: #4e3730;
+    font-size: 0.8em;
+}
+
+
+/* Font-awesome */
+.fa.fa-home,
+.fa.fa-phone{
+    font-size: 1.4em;    
+}
+
+/* Link do desenlvovedor */
+.linkfoot{
+    color: #fff;
+    transition: ease-out 0.2s;
+}
+
+.linkfoot:hover{
+    text-decoration: none;
+    color: var(--link-selection);
+}
+/* 
+@media(max-width: 768px){
+    
+} */
+

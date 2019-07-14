@@ -1,0 +1,19 @@
+:root{
+    --link-selection: #e09407;
+    --brown-site: #3c3b3f;
+    --lightbrown-site: #bdb193;
+    --gradient-jumbotron: linear-gradient(to bottom, #44302a, #885242);
+    --gradient-footer: linear-gradient(to top, #44302a, #885242);
+}
+
+*{
+    font-family: 'Montserrat', monospace;
+    box-sizing: border-box;
+}
+
+.jumbotron-pages{
+    padding-top: 10em;
+    padding-bottom: 2em;
+    background: var(--gradient-jumbotron);
+    color: #FFF;
+}
