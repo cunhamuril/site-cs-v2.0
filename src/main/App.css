@@ -17,3 +17,12 @@
     background: var(--gradient-jumbotron);
     color: #FFF;
 }
+
+.progress{
+    width: 65%;
+    height: 2em;    
+}
+
+.progress-bar{
+    width: 20%;    
+}

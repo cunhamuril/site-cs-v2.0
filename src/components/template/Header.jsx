@@ -47,6 +47,5 @@ export default props =>
                     <a className="nav-link" href="/contato">Contato</a>
                 </li>
             </ul>
-
         </div>
     </nav>

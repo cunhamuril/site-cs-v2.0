@@ -37,15 +37,6 @@
     font-size: 1.3em;
 }
 
-.progress{
-    width: 65%;
-    height: 2em;    
-}
-
-.progress-bar{
-    width: 20%;    
-}
-
 @media(max-width: 768px){
     .progress{
         width: 100%;    

@@ -37,7 +37,7 @@ img.logo{
 
 @media(max-width: 768px){
     .navbar-dark{
-        background: #00000077;
-        margin: 0;
-    }
+        background: #00000096;
+        margin: 0;        
+    }   
 }
