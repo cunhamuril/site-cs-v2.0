@@ -58,7 +58,7 @@ export default props =>
             <p>VOLTE EM BREVE</p>
             <center>
                 <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">20%</div>
+                    <div className="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">35%</div>
                 </div>
             </center>
         </div>

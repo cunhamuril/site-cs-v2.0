@@ -33,7 +33,7 @@ export default props =>
                 eu bibendum sem.
             </p>
 
-            <h1 className="display-4 mb-2"><strong>Cortes de Madeira</strong></h1>
+            <h1 className="display-4 mb-2"><strong>Beneficiamento de Madeira</strong></h1>
             <img src={Corte} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <img src={Corte1} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <p className="text-justify py-4">
@@ -58,20 +58,7 @@ export default props =>
                 metus gravida, in hendrerit nulla lacinia. Curabitur sollicitudin ex mi, eu
                 tempus quam luctus quis. Pellentesque laoreet vel sem et venenatis. Aliquam
                 eu bibendum sem.
-            </p>
-
-            <h1 className="display-4 mb-2"><strong>Fabricação de Pallets</strong></h1>
-            <img src={Fabricacao} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
-            <img src={Fabricacao1} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />            
-            <p className="text-justify py-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Donec urna orci, euismod at turpis non, gravida volutpat augue.
-                In interdum, risus ut finibus convallis, justo arcu dictum magna,
-                vel vestibulum lacus eros sit amet magna. Nulla finibus nulla venenatis
-                metus gravida, in hendrerit nulla lacinia. Curabitur sollicitudin ex mi, eu
-                tempus quam luctus quis. Pellentesque laoreet vel sem et venenatis. Aliquam
-                eu bibendum sem.
-            </p>
+            </p>            
 
             <h1 className="display-4 mb-2"><strong>Transporte</strong></h1>
             <img src={Transporte} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />               
