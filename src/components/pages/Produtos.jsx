@@ -1,4 +1,5 @@
 import React from 'react'
+import Building from '../template/Building'
 
 import Serragens from '../../assets/img/fotos-servicos/serragens.JPG'
 import Pallet from '../../assets/img/fotos-servicos/pallets2.JPG'
@@ -108,14 +109,6 @@ export default props =>
             <hr className="py-3" />
         </div>
 
-        <div className="container py-5 my-5">
-            <h3>PÁGINA EM DESENVOLVIMENTO</h3>
-            <p>VOLTE EM BREVE</p>
-            <center>
-                <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">20%</div>
-                </div>
-            </center>
-        </div>
+        <Building />
 
     </div>

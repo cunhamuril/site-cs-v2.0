@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f5f5f5;
+}
+
 .jumbotron-pages{
     padding-top: 10em;
     padding-bottom: 2em;

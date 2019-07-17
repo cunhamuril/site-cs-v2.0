@@ -1,4 +1,5 @@
 import React from 'react'
+import Building from '../template/Building'
 
 export default props =>
     <div>
@@ -63,14 +64,5 @@ export default props =>
             <hr />
         </div>
 
-        <div className="container my-5">
-            <center>
-                <h3>PÁGINA EM DESENVOLVIMENTO</h3>
-                <p>VOLTE EM BREVE</p>
-
-                <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">20%</div>
-                </div>
-            </center>
-        </div>
+        <Building />
     </div>

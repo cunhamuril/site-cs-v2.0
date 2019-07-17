@@ -1,6 +1,7 @@
 import './Home.css'
 import React from 'react'
 import Main from '../template/Main'
+import Building from '../template/Building'
 
 import ImgHome from '../../assets/img/home.png'
 import ImgHome1 from '../../assets/img/home1.jpg'
@@ -53,13 +54,7 @@ export default props =>
 
 
         {/* Content */}
-        <div className="container py-5 my-5">
-            <h3>SITE EM CONSTRUÇÃO</h3>
-            <p>VOLTE EM BREVE</p>
-            <center>
-                <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">35%</div>
-                </div>
-            </center>
-        </div>
+
+        <Building />
+        
     </Main>
