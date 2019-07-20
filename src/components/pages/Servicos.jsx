@@ -15,13 +15,13 @@ export default props =>
     <div>
         <div className="d-block jumbotron jumbotron-fluid jumbotron-pages">
             <div className="container">
-                <h1 className="display-4">Serviços</h1>
+                <h3 className="display-4">Serviços</h3>
                 <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             </div>
         </div>
 
         <div className="container">            
-            <h1 className="display-4 mb-4"><strong>Chegada da Matéria Prima</strong></h1>
+            <h3 className=" mb-4">Chegada da Matéria Prima</h3>
             <img src={MateriaPrima} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <img src={MateriaPrima1} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <p className="text-justify py-4">
@@ -34,7 +34,7 @@ export default props =>
                 eu bibendum sem.
             </p>
 
-            <h1 className="display-4 mb-2"><strong>Beneficiamento de Madeira</strong></h1>
+            <h3 className="mb-2">Beneficiamento de Madeira</h3>
             <img src={Corte} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <img src={Corte1} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <p className="text-justify py-4">
@@ -47,7 +47,7 @@ export default props =>
                 eu bibendum sem.
             </p>
 
-            <h1 className="display-4 mb-2"><strong>Fabricação de Pallets</strong></h1>
+            <h3 className=" mb-2">Fabricação de Pallets</h3>
             <img src={Fabricacao} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />
             <img src={Fabricacao1} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />         
             <img src={Fabricacao2} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />         
@@ -61,7 +61,7 @@ export default props =>
                 eu bibendum sem.
             </p>            
 
-            <h1 className="display-4 mb-2"><strong>Transporte</strong></h1>
+            <h3 className=" mb-2">Transporte</h3>
             <img src={Transporte} alt="Matéria Prima" className="rounded mx-auto d-inline-block p-1" />               
             <p className="text-justify py-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
