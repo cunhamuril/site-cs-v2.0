@@ -1,10 +1,13 @@
 import './Header.css'
 import logo from '../../assets/img/logo.png'
+
 import React from 'react'
+
 import $ from 'jquery'
 
+
 $(window).on('scroll', function () {
-    const navbarScroll = 'navbar-scroll navbar-light shadow-sm p-3 mb-5 bg-white'
+    const navbarScroll = 'navbar-scroll navbar-light shadow-sm mb-5 bg-white'
 
     if ($(window).scrollTop()) {
         $('nav').addClass(navbarScroll);
