@@ -2,7 +2,7 @@
     height: 100vh;
     min-height: 300px;
     min-width: 1100px;
-    
+        
     width: 100%;    
     
     background: no-repeat center center fixed;
@@ -37,8 +37,27 @@
     font-size: 1.3em;
 }
 
+#card-reforest {    
+    transition: ease-out 0.2s;
+    border-radius: 15px;
+}
+
+#card-reforest:hover{
+    background-color: #dafada;
+    transform: scale(1.1);
+}
+
+#ico-tree {    
+    font-size: 4em;
+    transition: ease-out 0.2s;
+}
+
 @media(max-width: 768px){
     .progress{
         width: 100%;    
+    }
+
+    #card-reforest {
+        max-width: 28rem;
     }
 }

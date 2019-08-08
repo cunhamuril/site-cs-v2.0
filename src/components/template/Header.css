@@ -34,6 +34,11 @@ img.logo{
     color: var(--link-selection);
 }
 
+#active {
+    color: var(--link-selection);
+    border-bottom: solid 2px var(--link-selection);
+}
+
 
 @media(max-width: 768px){
     .navbar-dark{
