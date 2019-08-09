@@ -39,17 +39,19 @@
 
 #card-reforest {    
     transition: ease-out 0.2s;
-    border-radius: 15px;
-}
-
-#card-reforest:hover{
-    background-color: #dafada;
-    transform: scale(1.1);
-}
+    border-radius: 15px;    
+} 
 
 #ico-tree {    
     font-size: 4em;
     transition: ease-out 0.2s;
+}
+
+@media(min-width: 768px){
+    #card-reforest:hover{
+        background-color: #dafada;
+        transform: scale(1.1);
+    }
 }
 
 @media(max-width: 768px){
@@ -58,6 +60,7 @@
     }
 
     #card-reforest {
-        max-width: 28rem;
+        width: 100%;
+        border-radius: 0;
     }
 }
