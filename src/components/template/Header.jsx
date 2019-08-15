@@ -23,9 +23,11 @@ $(window).on('scroll', function () {
 const Header = () => {
 
     const isActive = path => {
-        const baseURL = `${window.location.protocol}//${window.location.host}`
+        const { protocol, host, href } = window.location
 
-        if (window.location.href === `${baseURL}/${path}`) {
+        const baseURL = `${protocol}//${host}`
+
+        if (href === `${baseURL}/${path}`) {
             return 'active'
         }
     }
