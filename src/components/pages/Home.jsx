@@ -3,7 +3,7 @@ import React from 'react'
 import Main from '../template/Main'
 import Building from '../template/Building'
 
-import ImgHome from '../../assets/img/home.png'
+import ImgHome from '../../assets/img/home.jpg'
 import ImgHome1 from '../../assets/img/home1.jpg'
 import ImgHome2 from '../../assets/img/home2.jpg'
 
